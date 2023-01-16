@@ -1,0 +1,25 @@
+div.question {
+	margin: 10px auto;
+	min-width: 300px;
+	max-width: 600px;
+
+	div.title {
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+		height: 50px;
+		background-color: lightblue;
+		padding: 10px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		button {
+			cursor: pointer;
+		}
+	}
+
+	div.info {
+		transition: 2s;
+	}
+}

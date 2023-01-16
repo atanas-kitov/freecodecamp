@@ -1,0 +1,17 @@
+div.shopping {
+	margin: 40px auto;
+	width: 600px;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	div.add-product {
+	}
+
+	div.list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
